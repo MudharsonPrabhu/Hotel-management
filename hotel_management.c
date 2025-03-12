@@ -5,11 +5,11 @@ int main()
 {
     int v,quantity,net=0,i,j;
 
-    cgt:
+    start:
     printf("WELCOME TO DEVISURESH HOTEL'S CAKE CORNER");
 
 
-    smp:
+    menu:
     printf("\n\n\t CAKE MENU:");
     printf("\n\n\t\t 1.MANGO         : 200Rs/kg");
     printf("\n\t\t 2.VANILLA       : 230Rs/kg");
@@ -48,7 +48,7 @@ int main()
 
     if(i == 1)
     {
-        goto smp;
+        goto menu;
     }
 
 
@@ -60,7 +60,7 @@ int main()
 
         if(j == 1)
         {
-            goto cgt;
+            goto start;
         }
 
         return 0;
